@@ -1,0 +1,41 @@
+.tabs {
+  display: flex;
+}
+
+.tabs.tabs-horizontal {
+  flex-direction: row;
+}
+
+.tabs.tabs-vertical {
+  flex-direction: column;
+}
+
+.tab-headers {
+  display: flex;
+  background: lightgrey;
+}
+
+.tab-headers.tabs-horizontal {
+  flex-direction: column;
+}
+
+.tab-headers.tabs-vertical {
+  flex-direction: row;
+}
+
+.tab-header {
+  background: none;
+  border: none;
+  padding: 8px;
+}
+
+.tab-header.active-tab {
+  font-weight: 700;
+  background: lightblue;
+}
+
+.tab-contents {
+  border: solid 1px lightgrey;
+  padding: 16px;
+  flex: 1;
+}
